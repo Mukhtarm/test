@@ -13,7 +13,7 @@ def greet(who_to_greet):
     return greeting
 
 
-print("Hello", greet)
+print(greet("Mukhtar Mohamoud"))
 
 r = requests.get("https://newny.io")
 print(r.status_code)
